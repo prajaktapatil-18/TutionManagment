@@ -30,6 +30,7 @@ int payment;
                 int paymentDecision = scan.nextInt();
                 if (paymentDecision==1){
                         System.out.println("you have to pay" + total);
+                        int payment = scan.nextInt();
                         if (payment==total){
                                 System.out.println("welcome now you are a student of our classes we will sent all information on your number\n" +
                                         "thank you");
